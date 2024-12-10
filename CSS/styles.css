@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    max-width: 1080px;
+    height: auto;
+    align-items: center;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #f0a500;
+}
+.navbar .navlink{
+    cursor: pointer;
+}
+.navbar .logo{
+    cursor: pointer;
+}
+
+#profile{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+#profile .avatar{
+    flex-grow: 1;
+    max-width: 50%;
+    text-align: center;
+}
+.avatar img{
+    width: 80%;
+    border-radius: 50%;
+    border: 3px solid gainsboro;
+    box-shadow: -1px 5px 20px 3px rgba(0, 0, 0, 0.32);
+}
+
+#profile .information{
+    flex-grow: 1;
+    max-width: 50%;
+}
+
+#prfile .information {
+    flex-grow: 1;
+    text-align:left;
+    padding-left: 50px;
+  }
+  
+  #profile .information button {
+    padding: 8px;
+    cursor: pointer;
+    border: 2px solid rgb(46, 160, 178);
+    background-color: rgb(0, 217, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+    border-radius: 8px;
+  }
+  
+  #profile .information button:hover {
+    background-color: rgb(24, 142, 157);
+  }
+  
+  #profile .information h1 {
+    font-size: 2.8rem;
+    letter-spacing: 3px;
+  }
+  #profile .information h3 {
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    text-wrap: wrap;
+    margin-top: 10px;
+    opacity: .6;
+    
+  }
+  #profile .information .address{
+      margin-top: 30px;
+  }
+  #profile .information .address p{
+      margin-top: 10px;
+  }
+  #profile .information .social-media{
+      margin-top: 30px;
+      font-size: 1.5rem;
+     
+  }
+  #profile .information .social-media a{
+      margin-left: 10px;
+  }
+   .social-media .facebook{
+      color: #4267B2;
+  }
+  .social-media .instagram{
+      color: #c32aa3;
+  }
+  .social-media .youtube{
+      color: #ff0000;
+  }
+  .social-media .link-in{
+      color: #0a66c2;
+  }
+  .social-media a:hover{
+      box-shadow: -1px 7px 36px 11px rgba(0, 0, 0, 0.32);
+  }
+
+  #aboutme{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+  }
+
+  #aboutme .about{
+    flex-grow: 1;
+    max-width: 50%;
+  }
+
+  #aboutme .poster1{
+    flex-grow: 1;
+    max-width: 50%;
+    text-align: center;
+  }
+  .poster1 img{
+    width: 80%;
+  }
+
+  #aboutme .about h3 {
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    text-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  #aboutme .about p{
+    line-height: 1.4rem;
+    /* margin-bottom: 20px; */
+  }
+  
+  #aboutme p span{
+    background-color: rgb(85, 210, 169);
+    font-size: 15px;
+    padding: 2px 7px;
+    border-radius: 2px;
+  }
+
+  #aboutme .myskills{
+    display: flex;
+    font-size: 0;
+  }
+  #aboutme .myskills .btn-group{
+    margin: 20px 20px 0 0;
+  }
+  #aboutme .myskills .btn-group button{
+    color: aliceblue;
+    padding: 5px 10px;
+    border: 0;
+    background-color: rgb(175, 255, 228);
+    cursor: pointer;
+  }
+  #aboutme .myskills .btn-group button:first-child{
+    border-radius: 5px 0 0 5px;
+  }
+  #aboutme .myskills .btn-group button:last-child{
+    border-radius: 0 5px 5px 0;
+  }
+
+  .set-blue{
+    background-color: #0a66c2 !important;
+  }
+  .set-red{
+    background-color: #aa1b1b !important;
+  }
+  .set-gold{
+    background-color: goldenrod !important;
+  }
+  .set-Purple{
+    background-color: #612198 !important;
+  }
+  .set-pink{
+    background-color: #982162 !important;
+  }
+  .set-green{
+    background-color: #045407 !important;
+  }
+  #aboutme .myskills button:hover {
+    background-color: rgb(71, 71, 71);
+  }
